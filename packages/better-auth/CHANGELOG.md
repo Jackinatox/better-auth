@@ -1,5 +1,20 @@
 # better-auth
 
+## 1.6.4
+
+### Patch Changes
+
+- [#9068](https://github.com/better-auth/better-auth/pull/9068) [`acbd6ef`](https://github.com/better-auth/better-auth/commit/acbd6ef69f88ea54174446ac0465a426bad7ca09) Thanks [@GautamBytes](https://github.com/GautamBytes)! - Fix forced UUID user IDs from create hooks being ignored on PostgreSQL adapters when `advanced.database.generateId` is set to `"uuid"`.
+
+- Updated dependencies []:
+  - @better-auth/core@1.6.4
+  - @better-auth/drizzle-adapter@1.6.4
+  - @better-auth/kysely-adapter@1.6.4
+  - @better-auth/memory-adapter@1.6.4
+  - @better-auth/mongo-adapter@1.6.4
+  - @better-auth/prisma-adapter@1.6.4
+  - @better-auth/telemetry@1.6.4
+
 ## 1.6.3
 
 ### Patch Changes
